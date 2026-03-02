@@ -79,7 +79,6 @@ example4∼ a = refl
 example5∼ : (a : Boolean) → Or True a ≃ True
 example5∼ a = refl
 
-
 -- lemmas for example 6 and 7
 ∨false : (a : Bool) → a ∨ false ≡ a
 ∨false false = refl
